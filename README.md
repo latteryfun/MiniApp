@@ -26,7 +26,7 @@ flowchart TD
 User[Telegram User] --> MiniApp[MiniApp UI]
 MiniApp --> Backend[Application Logic]
 Backend --> SQL[(SQL Server Models)]
-Backend --> Some App Important Functions
+Backend --> MiniApp Functions
 Blockchain --> Blockchain[(Smart Contracts)]
 Backend --> MiniApp
 UI --> MiniApp UI
@@ -41,7 +41,7 @@ UI --> MiniApp UI
 ├── ui/ # MiniApp UI Source (React / Telegram SDK)
 ├── backend/ # Application Logic (API + Blockchain Connection)
 ├── Blockchain / # Smart Contracts (Func)
-├── UI/ # Some App UIS
+├── UI/ # MiniApp
 ├── docs/ # Diagrams and Explanations
 └── README.md
 ```
@@ -57,9 +57,11 @@ MiniApp UI includes The following sections are:
 
 📸 UI Sample:
 
-![ui-screenshot](docs/img/intro.png?raw=true) <!-- TODO: Add Screenshot -->
-![ui-screenshot](docs/img/Dashboard.png?raw=true) <!-- TODO: Add Screenshot -->
-![ui-screenshot](docs/img/Tasks.png?raw=true) <!-- TODO: Add Screenshot -->
-![ui-screenshot](docs/img/Buy.png?raw=true) <!-- TODO: Add Screenshot -->
-![ui-screenshot](docs/img/Random.png?raw=true) <!-- TODO: Add Screenshot -->
-![ui-screenshot](docs/img/Transactions.png?raw=true) <!-- TODO: Add Screenshot -->
+<img src="docs/img/intro.png?raw=true" alt="UI Screenshot" width="300"/>
+<img src="docs/img/Dashboard.png?raw=true" alt="UI Screenshot" width="300"/>
+<img src="docs/img/Tasks.png?raw=true" alt="UI Screenshot" width="300"/>
+<img src="docs/img/Buy.png?raw=true" alt="UI Screenshot" width="300"/>
+<img src="docs/img/Random.png?raw=true" alt="UI Screenshot" width="300"/>
+<img src="docs/img/Transactions.png?raw=true" alt="UI Screenshot" width="300"/>
+
+
