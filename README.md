@@ -26,7 +26,7 @@ flowchart TD
 User[Telegram User] --> MiniApp[MiniApp UI]
 MiniApp --> Backend[Application Logic]
 Backend --> SQL[(SQL Server Models)]
-Backend --> SomeApp Important Functions
+Backend --> Some App Important Functions
 Blockchain --> Blockchain[(Smart Contracts)]
 Backend --> MiniApp
 UI --> MiniApp UI
@@ -41,7 +41,7 @@ UI --> MiniApp UI
 ├── ui/ # MiniApp UI Source (React / Telegram SDK)
 ├── backend/ # Application Logic (API + Blockchain Connection)
 ├── Blockchain / # Smart Contracts (Func)
-├── UI/ # SomeApp UIS
+├── UI/ # Some App UIS
 ├── docs/ # Diagrams and Explanations
 └── README.md
 ```
@@ -56,4 +56,10 @@ MiniApp UI includes The following sections are:
 * Results and Winners Display
 
 📸 UI Sample:
-![ui-screenshot](docs/images/intro.png) <!-- TODO: Add Screenshot -->
+
+![ui-screenshot](docs/img/intro.png?raw=true) <!-- TODO: Add Screenshot -->
+![ui-screenshot](docs/img/Dashboard.png?raw=true) <!-- TODO: Add Screenshot -->
+![ui-screenshot](docs/img/Tasks.png?raw=true) <!-- TODO: Add Screenshot -->
+![ui-screenshot](docs/img/Buy.png?raw=true) <!-- TODO: Add Screenshot -->
+![ui-screenshot](docs/img/Random.png?raw=true) <!-- TODO: Add Screenshot -->
+![ui-screenshot](docs/img/Transactions.png?raw=true) <!-- TODO: Add Screenshot -->
