@@ -28,8 +28,8 @@ MiniApp --> Backend[Application Logic]
 Backend --> SQL[(SQL Server Models)]
 Backend --> Mini_App_Func
 Blockchain --> Blockchain[(Smart Contracts)]
-Backend --> MiniApp
-UI --> MiniApp UI
+Backend --> Mini_App
+UI --> Mini_App_UI
 ```
 
 ---
@@ -63,6 +63,7 @@ MiniApp UI includes The following sections are:
 <img src="docs/img/Buy.png?raw=true" alt="UI Screenshot" width="300"/>
 <img src="docs/img/Random.png?raw=true" alt="UI Screenshot" width="300"/>
 <img src="docs/img/Transactions.png?raw=true" alt="UI Screenshot" width="300"/>
+
 
 
 
